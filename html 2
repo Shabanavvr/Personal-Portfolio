@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="C:\Users\Basha\Shabana Portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"> Shabana.</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#resume">Resume</a> <!-- Added Resume Link -->
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/your-profile" target="_blank">Twitter</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Shabana</h1>
+            <h3>Frontend Developer</h3>
+            <p>"With a love for crafting seamless digital experiences, I've spent my coding solving problems and creating websites that not only look great but also deliver results. My expertise lies in frontend development, including HTML, CSS, and JavaScript, and I'm always excited to take on new challenges. Let's bring your vision to life—explore my portfolio to see my work in action."</p>
+            <div class="btn-box">
+                <a href="path/to/your/resume.pdf" download>Download Resume</a> <!-- Added Resume Download Link -->
+                <a href="#contact">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://twitter.com/your-profile" target="_blank"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://github.com/your-profile" target="_blank"><i class='bx bxl-github' ></i></a>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+</body>
+</html>
